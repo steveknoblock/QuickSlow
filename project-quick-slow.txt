@@ -1,0 +1,36 @@
+Quick-Slow Microblog Experiment
+--
+
+Goals are
+
+- setup a microblog data model in relational database
+- define tables and queries to represent "collectors" and "notebooks"
+
+
+posts
+-----
+post_id
+post_thread
+post_timestamp
+post_text
+
+
+notebooks
+---------
+notebook_id
+notebook_content
+
+
+A collector is code to scan a post and place post content or reference into corresponding notebook
+
+
+
+Behaviors
+--
+
+- When a user makes a post, a post_id is created and the post_thread is incremented.
+- When the user extends a post, the same post_id is used but the thread index is incremented.
+- At some threshold, a notebook is automatically created, starting with the content of the thread.
+
+(Some are Writely behaviors)
+
