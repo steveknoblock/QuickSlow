@@ -34,3 +34,10 @@ Behaviors
 
 (Some are Writely behaviors)
 
+
+Potential App Names
+--
+
+Gradual
+Accumulator
+PotentialEnergy
